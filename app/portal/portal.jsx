@@ -28,7 +28,7 @@ const ProductCard = ({
   return (
     <motion.div
       whileHover={{ scale: 1.03 }}
-      className="bg-[#F5F2F2] rounded-lg shadow-lg overflow-hidden relative flex flex-col h-full"
+      className="bg-[#F5F2F2] rounded-lg border border-black border-opacity-10 overflow-hidden relative flex flex-col h-full"
     >
       {isTopPick && (
         <div className="absolute top-0 right-0 bg-[#D1406E] text-white text-xs font-bold px-2 py-1 rounded-bl">
